@@ -23,13 +23,4 @@ def mergeSort(arr):
                 arr[i] = right[n2]
     return arr
 
-arr = [2,1,3,1,2]
-print(mergeSort(arr))
-
-
-a = 'maria'
-print(a)
-s = [a]
-print(s[0][0])
-
 
