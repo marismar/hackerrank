@@ -1,27 +1,27 @@
 def makeAnagram(a, b):
-    a_letters = {}
-    b_letters = {}
+    aLetters = {}
+    bLetters = {}
     a = list(a)
     b = list(b)
-    del_chars = 0
+    delChars = 0    #number of chars to be deleted
 
     for i in a:
-        if i in a_letters:
-            a_letters[i] += 1
+        if i in aLetters:
+            aLetters[i] += 1
         else:
-            a_letters[i] = 1
+            aLetters[i] = 1
     for j in b:
-        if j in b_letters:
-            b_letters[j] += 1
+        if j in bLetters:
+            bLetters[j] += 1
         else:
-            b_letters[j] = 1
+            bLetters[j] = 1
     
-    for key, val in a_letters.items():
-        if key in b_letters: 
-            del_chars += abs(val - b_letters[key])
+    for key, val in aLetters.items():
+        if key in bLetters: 
+            delChars += abs(val - bLetters[key])
         else:
-            del_chars += val
-    for key, val in b_letters.items():
-        if key not in a_letters:
-            del_chars += val
-    return del_chars
+            delChars += val
+    for key, val in bLetters.items():
+        if key not in aLetters:
+            delChars += val
+    return delChars

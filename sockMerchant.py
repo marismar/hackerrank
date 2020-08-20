@@ -1,10 +1,10 @@
 def sockMerchant(n, ar):       
-    added_colors = []
+    addedColors = []
     pairs = 0
     
     for obj in ar:
-        if (obj not in added_colors):
+        if (obj not in addedColors):
             pairs += int(ar.count(obj)/2)
-            added_colors.append(obj)
+            addedColors.append(obj)
             
     return pairs
