@@ -1,2 +1,2 @@
-# hackerrank-challenges
-Resolução de problemas da Hackerrank.
+# Hackerrank Challenges
+Solutions for Hackerrank challenges 💬  
