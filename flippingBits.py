@@ -11,3 +11,5 @@ def flippingBits(n):
   return
 
 flippingBits(2)
+
+#Incompleted solution
