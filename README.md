@@ -4,7 +4,7 @@
 <p align="center">
   <a href="#algorithms">Algorithms</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#python">Python</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="##interview-preparation-kit">Interview Preparation Kit</a>
+  <a href="#interview-preparation-kit">Interview Preparation Kit</a>
 </p>
 
 ## Algorithms
