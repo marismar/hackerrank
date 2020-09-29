@@ -1,5 +1,5 @@
-<h1 align="center"> Hackerrank Problems </h1>
-<h3 align="center"> Solutions for Hackerrank challenges 💬 </h3>
+<h1 align="center"> Hackerrank Challenges </h1>
+<h3 align="center"> Solutions for Hackerrank challenges. </h3>
 
 <p align="center">
   <a href="#algorithms">Algorithms</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
